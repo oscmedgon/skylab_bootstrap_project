@@ -2,54 +2,26 @@
 .itemMenu{
   display: flex;
 }
-.superTitle h1{
-  display: inline;
+.itemMenu .superTitle{
   font-size: 20px;
   font-weight: bolder;
   color:#1CAA98;
 }
 .superTitle{
-  display: inline-block;
-  width: 10%;
-  margin-top: 8px;
+
 }
 .itemMenu a{
   color: black;
 }
 /* THIS SECTION IT'S DEDICATED TO THE HOME PAGE */
+/* HERE STARTS THE SHOWCASES CSS RULES */
 .showcase{
   width: 100%;
   background-image: url(img/site_showcase_bg.jpg);
   background-size: cover;
  }
 .showcase-container{
-   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   color: white;
-}
-.showcase-box1{
-  display: flex;
-  flex-direction: column;
-  min-height: 400px;
-  width: 49%;
-  min-width: 100px;
-}
-.showcase-box1 .case1{
-  display: flex;
-  flex-direction: column;
-  height: 200px;
-  width: 100%;
-  justify-content: flex-end;
-  
-}
-.showcase-box2{
-  display: flex;
-  flex-direction: column;
-  min-height: 400px;
-  width: 49%;
-  min-width: 100px;
-  justify-content: flex-end;
 }
 .featured-showcase-text{
   color: #1CAA98;
@@ -61,16 +33,35 @@
 .case1 p{
   font-size: 20px;
 }
-.showcase-container.showcase-box1 {
-  display: flex;
-  flex-direction: row;
-  align-content: flex-start;
-  align-content: space-between;
-}
-.case2 .storeLogo{
-  width: 40%;
-  height: 80px
-}
 .showcase-box2 img{
   max-width: 270px;
 }
+/* HERE STARTS THE ARTICLE LIST CSS RULES */
+.article-list{
+  margin-top: 40px;
+}
+.article-list .article-img{
+  border: 2px solid lightgrey;
+}
+.article-list .article{
+  border: 0px;
+}
+/* HERE STARTS THE APP FEATURED FUNCTION LIST SECTION */
+.app-feature-list{
+  background-color: #40AE98;
+}
+.app-feature-list .sub-title{
+  color: white;
+  font-weight: bolder;
+}
+.app-feature-list .feature-list li{
+  color: white;
+  background-color: #40AE98;
+  font-size: 18px;
+  border: 0px;
+}
+.app-feature-list .feature-list i{
+  padding-right: 5px;
+  font-size: 19px;
+}
+/* HERE STARTS FOOTER CSS RULES */
