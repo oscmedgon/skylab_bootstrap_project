@@ -1,0 +1,81 @@
+.itemMenu {
+  display: flex; }
+  .itemMenu a {
+    color: black; }
+
+.nav-title .superTitle {
+  font-size: 20px;
+  font-weight: bolder;
+  color: #1CAA98; }
+
+.showcase {
+  width: 100%;
+  background-image: url(../img/site_showcase_bg.jpg);
+  background-size: cover; }
+
+.showcase-container {
+  color: white; }
+
+.featured-showcase-text {
+  color: #1CAA98;
+  font-size: 60px; }
+
+.showcase-box1 {
+  padding-bottom: 12%; }
+
+.case1 h2 {
+  font-size: 50px;
+  text-align: center; }
+.case1 p {
+  font-size: 25px;
+  text-align: center; }
+@media (min-width: 500px) {
+  .case1 p, .case1 h2 {
+    text-align: left; } }
+
+.case2 div img {
+  padding: 10px;
+  display: block;
+  margin: auto; }
+
+.showcase-box1 {
+  padding-bottom: 12%; }
+
+.showcase-box2 img {
+  max-width: 270px; }
+
+.article-list {
+  margin-top: 40px; }
+  .article-list .article-img {
+    border: 2px solid lightgrey; }
+  .article-list .article {
+    border: 0px; }
+
+.app-feature-list {
+  background-color: #40AE98; }
+  .app-feature-list .sub-title {
+    color: white;
+    font-weight: bolder; }
+  .app-feature-list .feature-list li {
+    color: white;
+    background-color: #40AE98;
+    font-size: 18px;
+    border: 0px; }
+  .app-feature-list .feature-list i {
+    padding-right: 5px;
+    font-size: 19px; }
+
+.general-footer {
+  background-color: black; }
+  .general-footer .footer-content {
+    display: inline;
+    text-align: center;
+    margin-left: 15%; }
+  .general-footer .footer-content {
+    color: white; }
+  .general-footer #legal {
+    color: white;
+    margin-top: 4%;
+    text-align: center; }
+
+/*# sourceMappingURL=styles.css.map */

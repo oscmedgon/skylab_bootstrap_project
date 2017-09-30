@@ -1,0 +1,117 @@
+//VARIABLE DECLARATION SECTION FOR SCSS STARTS HERE
+$primary-color: #1CAA98;
+// THIS SECTION IT'S DEDICATED TO THE NAVIGATION MENU
+.itemMenu {
+  display: flex;
+  a {
+    color: black;
+  }
+}
+.nav-title .superTitle {
+  font-size: 20px;
+  font-weight: bolder;
+  color: $primary-color;
+}
+
+// THIS SECTION IT'S DEDICATED TO THE HOME PAGE
+// HERE STARTS THE SHOWCASES CSS RULES
+.showcase {
+  width: 100%;
+  background-image: url(../img/site_showcase_bg.jpg);
+  background-size: cover;
+}
+
+.showcase-container {
+  color: white;
+}
+
+.featured-showcase-text {
+  color: $primary-color;
+  font-size: 60px;
+}
+
+.showcase-box1 {
+  padding-bottom: 12%;
+}
+
+.case1 {
+  h2 {
+    font-size: 50px;
+    text-align: center
+  }
+  p {
+    font-size: 25px;
+    text-align: center;
+  }
+  @media (min-width: 500px) {
+    & p,
+    & h2 {
+      text-align: left
+    }
+  }
+}
+
+.case2 div img {
+  padding: 10px;
+  display: block;
+  margin: auto;
+}
+
+.showcase-box1 {
+  padding-bottom: 12%;
+}
+
+.showcase-box2 img {
+  max-width: 270px;
+}
+
+// HERE STARTS THE ARTICLE LIST CSS RULES
+.article-list {
+  margin-top: 40px;
+
+  .article-img {
+    border: 2px solid lightgrey;
+  }
+  .article {
+    border: 0px;
+  }
+}
+
+// HERE STARTS THE APP FEATURED FUNCTION LIST SECTION
+.app-feature-list {
+  background-color: #40AE98;
+  .sub-title {
+    color: white;
+    font-weight: bolder;
+  }
+  .feature-list {
+    li {
+      color: white;
+      background-color: #40AE98;
+      font-size: 18px;
+      border: 0px;
+    }
+    i {
+      padding-right: 5px;
+      font-size: 19px;
+    }
+  }
+}
+
+// HERE STARTS FOOTER CSS RULES
+.general-footer {
+  background-color: black;
+  .footer-content {
+      display: inline;
+      text-align: center;
+      margin-left: 15%;
+    }
+  .footer-content {
+    color: white;
+  }
+  #legal {
+    color: white;
+    margin-top: 4%;
+    text-align: center
+  }
+}

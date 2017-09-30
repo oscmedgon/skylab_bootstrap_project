@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/7.0.0/normalize.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="style.css">
   <title>Gamma Home Page</title>
   <style>
     * {
@@ -17,9 +17,7 @@
 </head>
 
 <body>
- 
   <!-- THIS SECTION IT'S DEDICATED TO THE NAVIGATION MENU -->
-  
   <nav class="navbar navbar-default">
     <div class="row">
       <!-- Brand and toggle get grouped for better mobile display -->
@@ -36,9 +34,9 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+          <li><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li class="active"><a href="contact.html">Contact</a></li>
         </ul>
       </div>
       <!-- /.navbar-collapse -->
@@ -46,11 +44,10 @@
     <!-- /.container-fluid -->
   </nav>
   <!-- THIS SECTION IT'S DEDICATED TO THE SHOWCASE -->
-  
   <section class="container showcase">
     <div class="showcase-container container">
       <div class="row">
-        <div class="showcase-box1 col-md-8 col-sm-11 col-xs-12">
+        <div class="showcase-box1  col-lg-8 col-md-8 col-sm-7 col-xs-12">
           <div class="case1">
             <h2>
               Capture <span class="featured-showcase-text">Life</span>
@@ -58,11 +55,11 @@
             <p> A fun and easy way to capture & share the moments you live for </p>
           </div>
           <div class="case2 row">
-            <div class="col-sm-6 col-xs-12"> <img src="img/icon_app_store.png" class="img-responsive" alt=""> </div>
-            <div class=" col-sm-6 col-xs-12"> <img src="img/icon_google_play.png" class="img-responsive" alt=""> </div>
+            <div class="col-md-6 col-xs-12"> <img src="img/icon_app_store.png" class="img-responsive" alt=""> </div>
+            <div class=" col-md-6 col-xs-12"> <img src="img/icon_google_play.png" class="img-responsive" alt=""> </div>
           </div>
         </div>
-        <div class="showcase-box2 col-lg-3 col-md-4 col-sm-5 hidden-xs hidden-sm"> <img src="img/site_phone.png" class="img-responsive" alt=""> </div>
+        <div class="showcase-box2 col-lg-3 col-md-4 col-sm-5 hidden-xs"> <img src="img/site_phone.png" class="img-responsive" alt=""> </div>
       </div>
     </div>
   </section>
@@ -97,41 +94,45 @@
       </div>
     </div>
   </section>
-  
   <!--  HERE STARTS THE APP FEATURED FUNCTION LIST SECTION -->
-  
   <section class="app-feature-list">
     <div class="container">
       <div class="row">
-        <div class="col-md-6  col-sm-6 col-xs-offset-1">
+        <div class="col-md-6 col-xs-offset-1 col-sm-6 ">
           <h2 class="sub-title">Gamma Features</h2>
-          <ul class="list-unstled feature-list">
+          <ul class="list-group feature-list">
             <li class="list-group-item"><i class="glyphicon glyphicon-ok"></i> charlatanistic</li>
-            <li class="list-group-item"><i class="glyphicon glyphicon-ok"></i> unembattled</li>
-            <li class="list-group-item"><i class="glyphicon glyphicon-ok"></i> bleekbok</li>
-            <li class="list-group-item"><i class="glyphicon glyphicon-ok"></i> overtipple</li>
-            <li class="list-group-item"><i class="glyphicon glyphicon-ok"></i> empathically</li>
+            <li class="list-group-item"><i class="glyphicon glyphicon-ok"></i>unembattled</li>
+            <li class="list-group-item"><i class="glyphicon glyphicon-ok"></i>bleekbok</li>
+            <li class="list-group-item"><i class="glyphicon glyphicon-ok"></i>overtipple</li>
+            <li class="list-group-item"><i class="glyphicon glyphicon-ok"></i>empathically</li>
           </ul>
         </div>
-        <div class="col-md-5 col-sm-5 col-sm-offset-0 col-xs-offset-1 ">
+        <div class="col-md-5 col-sm-5 hidden-xs">
           <img src="img/logo.png" class="img-responsive gamma-logo-img" alt="">
         </div>
       </div>
     </div>
   </section>
-  
   <!--  HERE STARTS THE FOOTER SECTION -->
-  
-  <footer class="general-footer container">
-         <ul class="footer-content list-unstyled list-inline">
-            <li class="footer-list"><a href="#">Home</a></li>
-            <li class="footer-list"><a href="about.html">About</a></li>
-            <li class="footer-list"><a href="contact.html">Contact</a></li>
-            <li class="footer-list"><a href="https://www.aboutcookies.org/">Privacy Policy</a></li>
+  <footer class="general-footer">
+    <nav class="navbar navbar-inverse footer-container container-fluid row">
+      <div class="col-xs-offset-1 col-sm-11">
+        <div class="col-sm-8">
+          <ul class="nav navbar-nav footer-content">
+            <li class="footer-nav-item"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+            <li class="footer-nav-item"><a href="about.html">About</a></li>
+            <li class="footer-nav-item"><a href="#">Contact</a></li>
+            <li class="footer-nav-item"><a href="https://www.aboutcookies.org/">Privacy Policy</a></li>
           </ul>
+        </div>
+        <div class="col-sm-4">
           <p id="legal">
             Copyright 2015 &copy; All rights reserved
           </p>
+        </div>
+      </div>
+    </nav>
   </footer>
   <!-- SCRIPT LOAD SECTION STARTS DOWN HERE -->
   <!-- JQUERY Latest JavaScript -->
