@@ -1,6 +1,9 @@
 //VARIABLE DECLARATION SECTION FOR SCSS STARTS HERE
 $primary-color: #1CAA98;
 // THIS SECTION IT'S DEDICATED TO THE NAVIGATION MENU
+body{
+  overflow-x: hidden;
+}
 .itemMenu {
   display: flex;
   a {

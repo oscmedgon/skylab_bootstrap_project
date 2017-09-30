@@ -1,3 +1,6 @@
+body {
+  overflow-x: hidden; }
+
 .itemMenu {
   display: flex; }
   .itemMenu a {
